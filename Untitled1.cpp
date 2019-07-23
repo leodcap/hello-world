@@ -1,8 +1,12 @@
 #include<iostream>
 using namespace std;
+void print(string arg)
+{
+    cout<<arg<<'\n';
+}
 int main()
 {
-
-    cout<<"hello world"<<endl;
+    
+    print("hello world");
 
 }
